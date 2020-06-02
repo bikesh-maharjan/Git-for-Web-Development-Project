@@ -3,43 +3,81 @@ Completed Codepen:
 
 
 
-1. What is Semantic HTML? 
+    1. What is Semantic HTML? 
+    Semantic HTML that gives meaning to our content.
     2. What is HTML used for? 
+    HTML is used to build the structure of the website. 
     3. What is an attribute and where do we put it? 
+    Attribute provides additional information about an HTML element and we put in start tag.
     4. What is the h1 tag used for? How many times should I use it on a page?
+    H1 tag is used for main heading and you can use it only one time on a page. 
     5. Name two tags that have required attributes
+    src and alt
     6. What do we put in the head of our HTML document? 
+    We put the title in the head of our HTML document.
     7. What is an id? 
+    An id is used to specify a unique id for an HTML element.
     8. What elements can I add an id to? 
+    You can add h1, p, section.
     9. How many times can I use the same id on a page? 
+    You can only use once. 
     10. What is a class? 
+    Class is used to specify one or more class names for an HTML element.
     11. What elements can I add a class to? 
+    <p> <h1> <section>
     12. How many times can I use the same class on a page? 
+    You can use multiple times. 
     13. How do I get my link to open in a new tab?
+    By writing target="_blank".
     14. What is the alt attribute in the image tag used for? 
+    alt is an information for an image if a user for some reason cannot view it    
     15. How do I reference an id?
+        By #id. 
     16. What is the difference between a section and a div
+    A section is used for generic section of the a document and div is is used mostly for styling. 
     17. What is CSS used for? 
+    CSS is used for styling the content of the html document.
     18. How to we select an element? Example - every h2 on the page
+    By selecting all h2.
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class can be used multiple times and an id has to be unique and unique name. 
+    For example: <p id = "myName"></p> vs <div class="cities"></div>
     20. How do we select classes in CSS?
+    We select classes in CSS by .name of the class. 
     21. How do we select a p element with a single class of “human””?
+    By .human
     22. What is a parent child selector? When would this be useful? 
+    A parent child selector selects all elements that are a direct child of the specified element. This will be useful when you have to change any elements of an html. 
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar a 
     24. What is a pseudo selector?
+    pseudo selector is that selects elements that are in a specific state.
     25. What do we use the change the spacing between lines?
+    We use line-height property.
     26. What do we use to change the spacing between letters?
+    We use line-spacing property.
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    We use text-transform property.
     28. How do I add a 1px border around my div that is dotted and black?
+    By adding border-style property. 
     29. How do I select everything on the page? 
+    By hitting CMD+A. 
     30. How do I write a comment in CSS?
+    By starting with /* and ending with */ .
     31. How do I find out what file I am in, when I am using the command line? 
+    By typing cd filename.
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    By typing ls. 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    By typing rm. You have to be careful with it because it can delete all your files permanently. 
     34. Why should I use version control? 
+    It helps to keep track of every changes you have made in your file. 
     35. How often should I commit to github?
+    Every time you make changes to your file. 
     36. What is the command we would use to push our repo up to github? 
+    Git push.
     37. Walk me through Lambda's git flow. 
+    First you need to fork so it is copied from an original. Second you should add collaborator(TL). Third you should clone your repo by copying the link and opening to terminal you should type git clone and paste the link you copied from github so it makes a new copy. After that you will need to open a new branch for yourself by typing git checkout -b "firstName-lastName this will create your own branch name from the master. After this you can git add . , git commit -m and git push -u origin branch name you created so later you can make changes to your file. 
 
 Stretch Questions
 
